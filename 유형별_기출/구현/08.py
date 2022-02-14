@@ -40,3 +40,6 @@ def solution(n, weak, dist):
     if answer == 10:
         answer = -1
     return answer
+
+# 풀이 방법을 글로 보고 구현하였음
+# 원형을 일자로 필 생각을 하지 못했고 친구들을 배치하는것도 완전탐색으로 접근할 생각을 못 하였음
