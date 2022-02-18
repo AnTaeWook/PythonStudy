@@ -32,7 +32,7 @@ while queue:
       # 정답에 해당하는 거리면
       if distance[nt] == k:
         answer.append(nt)
-      # 정답을 초가하였다면
+      # 정답을 초과하였다면
       elif distance[nt] > k:
         break_flag = 1
         break
@@ -49,5 +49,4 @@ for a in answer:
   print(a)
 
 
-#
-#########################################
+# 정답에는 해당 거리를 초과해도 탐색을 중단하지 않았음

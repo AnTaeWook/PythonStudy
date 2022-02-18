@@ -69,3 +69,5 @@ for wall in walls:
     answer = safety
 
 print(answer)
+
+# 정답은 조합을 itertools가 아닌 for문으로 구현하였음 -> 시간복잡도의 차이?

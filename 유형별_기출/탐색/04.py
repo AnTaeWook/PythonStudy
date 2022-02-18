@@ -33,3 +33,5 @@ def solution(p):
 
     # 올바른 괄호면 그대로 실행
     return u + solution(v)
+
+# 문제에선 균형잡힌 괄호 문자열의 인덱스 반환과 올바른 괄호 문자열인지 판단하는 함수를 solution함수 밖에서 따로 구현함

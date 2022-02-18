@@ -30,3 +30,5 @@ if dis <= s:
   print(vir)
 else:
   print(0)
+  
+# 정답은 bfs를 이용하여 풀었다(bfs를 시작하기 전 queue를 정렬하였음 -> 바이러스의 우선순위 때문에)
