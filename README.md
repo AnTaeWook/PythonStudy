@@ -1,2 +1,2 @@
 # algorithm_python
-STUDY STEADY 
+## STUDY STEADY 
